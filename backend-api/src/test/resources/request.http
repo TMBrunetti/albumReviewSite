@@ -1,0 +1,21 @@
+### Get all albums
+GET http://localhost:8080/api/albums
+###gets one album
+GET http://localhost:8080/albums/api/albums/{id}
+### Gets all songs
+GET http://localhost:8080/api/songs
+### Get one song
+GET http://localhost:8080/api/songs/{id}
+### To post an album
+POST http://localhost:8080/api/albums
+Content-Type: application/json
+
+{
+    "name": "A NfdsdfdsfdsEW ALBUM",
+    "description": "DESCRIPTION OF NEW ALBUM",
+    "songs": []
+}
+
+
+
+

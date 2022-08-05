@@ -1,0 +1,8 @@
+rootProject.name = 'api-mastery'
+include 'src:main:Model'
+findProject(':src:main:Model')?.name = 'Model'
+include 'src:main:View'
+findProject(':src:main:View')?.name = 'View'
+include 'src:main:Controller'
+findProject(':src:main:Controller')?.name = 'Controller'
+
